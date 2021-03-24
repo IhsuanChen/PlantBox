@@ -33,7 +33,7 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
@@ -166,8 +166,8 @@ a {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   text-align: center;
 }
 
@@ -179,6 +179,8 @@ a {
 .content-box-step {
   display: inline-flex;
   margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .content-box-step img {
@@ -282,13 +284,13 @@ background-color: transparent;
 
 .customer-review-container {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
 .customer-review-div {
   width: 100%;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .customer-review-img {
@@ -305,9 +307,10 @@ background-color: transparent;
   background-color: white;
   border-radius: 4px;
   max-height: 100px;
-  width: 100%;
+  width: 80%;
   overflow: overlay;
   margin-top: -15px;
+  margin: auto;
 }
 
 .customer-review-content p {
@@ -391,6 +394,10 @@ background-color: transparent;
     width: 80%;
   }
 
+  .width-80 {
+    width: 100%;
+  }
+
   .content-box {
     flex-wrap: wrap;
     display: inline-block;
@@ -402,6 +409,27 @@ background-color: transparent;
 
   h4 {
     font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .customer-review-content {
+    display: table-cell;
+  }
+
+  .customer-review-img {
+    width: 80%
+  }
+
+  .customer-review-content .width-70 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .customer-review-div {
+    margin: 15px;
   }
 
 }
@@ -429,19 +457,6 @@ background-color: transparent;
   .width-60.content-box img {
     padding-left: 0px;
     margin-bottom: 40px;
-  }
-
-  .customer-review-content {
-    margin-bottom: 40px;
-  }
-
-  .customer-review {
-    height: 200px;
-    width: 200px;
-  }
-
-  .customer-review-content {
-    width: 300px;
   }
 
   .content-box-step {
@@ -483,6 +498,14 @@ background-color: transparent;
 
   .width-70 {
     width: 100%;
+  }
+
+  .padding-40 {
+    padding-bottom: 0px;
+  }
+
+  .btn.center {
+    margin-top: 20px;
   }
 
   h1 {
@@ -542,6 +565,34 @@ background-color: transparent;
 
   .header {
     margin-top: 20px;
+  }
+
+  .customer-review-container {
+    display: inline;
+  }
+
+  .customer-review-img {
+    width: 80%;
+  }
+
+  .customer-review-content {
+    width: 80%;
+    height: 100%;
+  }
+
+  .customer-review-div {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .customer-review-content .width-70 {
+    width: 100%;
+  }
+
+  .content-container-cul .padding-bottom-30 {
+    padding-bottom: 0px;
   }
   
 }
